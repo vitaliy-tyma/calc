@@ -4,10 +4,20 @@
     <meta charset="UTF-8">
     <title>Calculator</title>
 </head>
+
 <body>
 
 <h1>
     Calculator
 </h1>
+
+<form action="calc?action=submit" method="get">
+    Operation: <input type="text" name="operation" value="sum"><br/>
+    Operand 1: <input type="text" name="operand_1" value="10"><br/>
+    Operand 2: <input type="text" name="operand_2" value="22"><br/>
+    <button type="submit">Calculate</button><br/>
+</form>
+
+
 </body>
 </html>

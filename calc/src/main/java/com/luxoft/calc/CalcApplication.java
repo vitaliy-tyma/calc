@@ -1,3 +1,6 @@
+/*
+*CalcApplication - works well
+* */
 package com.luxoft.calc;
 
 import org.springframework.boot.SpringApplication;
@@ -8,9 +11,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 public class CalcApplication {
 
 	public static void main(String[] args) {
-
-
-
 /*		String operation = args[0];
 		Integer a = Integer.valueOf(args[1]);
 		Integer b = Integer.valueOf(args[2]);
